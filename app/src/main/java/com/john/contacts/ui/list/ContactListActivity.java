@@ -1,20 +1,16 @@
 package com.john.contacts.ui.list;
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.bumptech.glide.request.target.SimpleTarget;
-import com.bumptech.glide.request.transition.Transition;
 import com.john.contacts.R;
 import com.john.contacts.models.Contact;
 import com.john.contacts.models.Model;
@@ -28,7 +24,6 @@ import io.github.luizgrp.sectionedrecyclerviewadapter.SectionedRecyclerViewAdapt
 import io.github.luizgrp.sectionedrecyclerviewadapter.StatelessSection;
 import me.zhanghai.android.materialprogressbar.MaterialProgressBar;
 import rx.subscriptions.CompositeSubscription;
-
 /**
  * Created by johns on 7/30/2017.
  */

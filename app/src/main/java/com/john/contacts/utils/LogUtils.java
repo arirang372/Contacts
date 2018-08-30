@@ -18,8 +18,8 @@
 
 package com.john.contacts.utils;
 
-import android.support.compat.BuildConfig;
 import android.util.Log;
+import com.john.contacts.BuildConfig;
 
 public class LogUtils
 {
