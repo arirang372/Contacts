@@ -12,13 +12,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import rx.Observable;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action1;
-import rx.schedulers.Schedulers;
 import rx.subjects.BehaviorSubject;
-
-import static com.john.contacts.utils.LogUtils.LOGD;
-
 
 /**
  * Created by john on 7/19/2017.
