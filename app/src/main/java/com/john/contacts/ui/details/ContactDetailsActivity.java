@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.john.contacts.R;
@@ -20,8 +19,6 @@ import com.john.contacts.models.Address;
 import com.john.contacts.models.Contact;
 import com.john.contacts.models.Model;
 import com.john.contacts.models.Phone;
-import com.john.contacts.ui.list.ContactListActivity;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
